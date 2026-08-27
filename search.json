@@ -1,16 +1,16 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
-    "section": "",
-    "text": "Articles"
-  },
-  {
     "objectID": "articles/index.html",
     "href": "articles/index.html",
     "title": "Articles",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Articles"
   }
 ]
