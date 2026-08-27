@@ -1,0 +1,6 @@
+---
+title: "Articles"
+listing:
+  contents: .
+  sort: "date desc"
+---
