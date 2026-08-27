@@ -1,9 +1,23 @@
 [
   {
+    "objectID": "articles/atomic-units/index.html",
+    "href": "articles/atomic-units/index.html",
+    "title": "原子単位系",
+    "section": "",
+    "text": "テスト記事です."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "これは自動公開のテストページです."
+    "text": "Articles"
+  },
+  {
+    "objectID": "articles/index.html",
+    "href": "articles/index.html",
+    "title": "Articles",
+    "section": "",
+    "text": "原子単位系\n\n\n\n\n\n\n\n\nAug 27, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
