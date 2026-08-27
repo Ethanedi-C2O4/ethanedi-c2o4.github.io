@@ -2,4 +2,4 @@
 title: "Home"
 ---
 
-これは自動公開のテストページです.
+[Articles](articles/)
