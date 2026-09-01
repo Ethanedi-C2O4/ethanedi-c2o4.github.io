@@ -1,6 +1,2 @@
 website:
   draft-mode: visible
-
-format:
-  html:
-    html-math-method: mathml
