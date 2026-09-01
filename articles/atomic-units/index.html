@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-01">
 
-<title>Articles</title>
+<title>Hartree原子単位系</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,24 +30,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4404fc44ce39540de2993f3ab3e0ab5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4404fc44ce39540de2993f3ab3e0ab5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -149,7 +119,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Articles</h1>
+<h1 class="title">Hartree原子単位系</h1>
 </div>
 
 
@@ -157,6 +127,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 1, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -166,59 +142,43 @@ window.Quarto = {
 </header>
 
 
+<section id="hartree原子単位系の概要" class="level2">
+<h2 class="anchored" data-anchor-id="hartree原子単位系の概要">Hartree原子単位系の概要</h2>
+<p>国際単位系では7つの基本量が定められています. Hartree原子単位系では, この7つのうち時間, 長さ, 質量, 電流に対応する単位を, いくつかの物理定数に基づいて組み直します.</p>
+</section>
+<section id="原子単位系で式が簡単になる理由" class="level2">
+<h2 class="anchored" data-anchor-id="原子単位系で式が簡単になる理由">原子単位系で式が簡単になる理由</h2>
+<p>Hartree原子単位系では, 量子化学で頻繁に現れるいくつかの物理定数に基づいて単位を定めます. その結果, これらの物理定数を原子単位系で表すと数値は1になります.<br>
+物理定数の数値が1になることは「物理定数を1にする」と表現されることがあります. この表現自体は間違いではありません. ただし, 次元を持つ物理量そのものが無次元数の1になるというわけではありません. その物理量を採用した単位系で表したときに, 数値が1になるという意味です.<br>
+また, Hartree原子単位を尺度として量方程式を無次元化すると, Hartree原子単位系の数値方程式と同じ形が得られます. 数値方程式とは, 物理量を選んだ単位で表した数値どうしの関係です. 以下では, Hartree原子単位系で使われる代表的な原子単位を確かめ, それらを使うと方程式がどのように簡潔になるかを見ていきます.</p>
+</section>
+<section id="代表的な原子単位" class="level2">
+<h2 class="anchored" data-anchor-id="代表的な原子単位">代表的な原子単位</h2>
+<p>Hartree原子単位系では, 換算Planck定数, 電子質量, 電気素量, 真空の誘電率の<span class="math inline">\(4 \pi\)</span>倍を基に単位を定めます.<br>
+これらの物理定数を組み合わせると, 長さの原子単位としてBohr半径が得られます. また, エネルギーの原子単位としてHartreeエネルギーが得られます.</p>
+<p><span class="math display">\[
+\begin{aligned}
+a_0 &amp;= \frac{ 4 \pi \varepsilon_0 \hbar^2 }{ m_\mathrm{e} e^2 } \\
+E_\mathrm{h} &amp;= \frac{ m_\mathrm{e} e^4 }{ (4 \pi \varepsilon_0)^2 \hbar^2 } =\frac{ 1 }{ 4 \pi \varepsilon_0 }\frac{ e^2 }{ a_0 }
+\end{aligned}
+\]</span></p>
+<p>Bohr模型では, Bohr半径はCoulomb引力で円運動する電子の角運動量を<span class="math inline">\(\hbar\)</span>としたときの軌道半径です. Hartreeエネルギーは, Bohr半径だけ離れた素電荷どうしのCoulombポテンシャルエネルギーの大きさです.</p>
+<p>Bohr半径とHartreeエネルギーが物理定数からどのように得られるかは, 次元解析を使って<a href="../../articles/atomic-units-derivation/index.html#derive-atomic-units">別記事</a>で確かめます.<br>
+Hartree原子単位系に対応する原子単位は, 方程式を無次元化するための尺度としても使えます. 無次元化に使う尺度の選び方は一つではありませんが, Hartree原子単位系に対応する尺度を選ぶと, Hartree原子単位系の数値方程式と同じ形が得られます. たとえば, 水素原子のSchrödinger方程式では, 長さの尺度としてBohr半径, エネルギーの尺度としてHartreeエネルギーを使います. この書き換えの具体的な<a href="../../articles/atomic-units-derivation/index.html#nondimensionalize-schroedinger">式変形</a>は別記事で示しています.</p>
+</section>
+<section id="物理定数を1にするの実際" class="level2">
+<h2 class="anchored" data-anchor-id="物理定数を1にするの実際">「物理定数を1にする」の実際</h2>
+<p>物理定数を基準として単位を定める単位系は, 自然単位系と呼ばれます. Hartree原子単位系もその一種です. ここでは, 「物理定数を1にする」とはどういう意味なのかを, 数値と単位に分けて考えます. 一般に物理量 <span class="math inline">\(Q\)</span> は単位 <span class="math inline">\([Q]\)</span> と数値<span class="math inline">\(\{ Q \}\)</span> の積からなります.</p>
+<p><span class="math display">\[
+Q = \{Q\} [Q]
+\]</span></p>
+<p>たとえば国際単位系では, 電気素量は約<span class="math inline">\(1.6 \times 10^{-19}\)</span> クーロンです. 一方, 電気素量そのものを電荷の単位として選べば, 電気素量は「1 電気素量」と表され, その数値は1になります.<br>
+このように, 物理定数そのものを単位の基準にすることで, その物理定数の数値を1にできます. この結果, Hartree原子単位系の数値方程式では, これらの物理定数を明示しない簡潔な表式が得られます.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1788220800000" data-listing-file-modified-sort="1788255968142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
-<div class="thumbnail"><a href="../articles/atomic-units/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../articles/atomic-units/index.html" class="no-external">Hartree原子単位系</a>
-</h3>
-<div class="delink listing-description"><a href="../articles/atomic-units/index.html" class="no-external">
-国際単位系では7つの基本量が定められています. Hartree原子単位系では, この7つのうち時間, 長さ, 質量, 電流に対応する単位を, いくつかの物理定数に基づいて組み直します.
-</a></div>
-</div>
-<div class="metadata">
-<a href="../articles/atomic-units/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1788220800000" data-listing-file-modified-sort="1788255968142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
-<div class="thumbnail"><a href="../articles/atomic-units-derivation/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../articles/atomic-units-derivation/index.html" class="no-external">Hartree原子単位系の補足</a>
-</h3>
-<div class="delink listing-description"><a href="../articles/atomic-units-derivation/index.html" class="no-external">
-ここでは時間, 長さ, 質量, 電流の次元を, それぞれ<span class="math inline">\(\mathsf{T}\)</span>, <span class="math inline">\(\mathsf{L}\)</span>, <span class="math inline">\(\mathsf{M}\)</span>, <span class="math inline">\(\mathsf{I}\)</span>と表します. Hartree原子単位系では, 換算Planck定数<span class="math inline">\(\hbar\)</span>, 電子質量<span class="math inline">\(m_\mathrm{e}\)</span>, 電気素量<span class="math inline">\(e\)</span>, 真空の誘電率の<span class="math inline">…</span><span class="math inline"></span>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../articles/atomic-units-derivation/index.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

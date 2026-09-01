@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "articles/atomic-units-derivation/index.html",
+    "href": "articles/atomic-units-derivation/index.html",
+    "title": "Hartree原子単位系の補足",
+    "section": "",
+    "text": "ここでは時間, 長さ, 質量, 電流の次元を, それぞれ\\(\\mathsf{T}\\), \\(\\mathsf{L}\\), \\(\\mathsf{M}\\), \\(\\mathsf{I}\\)と表します. Hartree原子単位系では, 換算Planck定数\\(\\hbar\\), 電子質量\\(m_\\mathrm{e}\\), 電気素量\\(e\\), 真空の誘電率の\\(4\\pi\\)倍である\\(4\\pi\\varepsilon_0\\)を基準にします. それぞれの次元は以下のとおりです.\n\n\\(\\dim(\\hbar) = \\mathsf{T}^{-1} \\mathsf{L}^2 \\mathsf{M}\\)\n\n\\(\\dim(m_\\mathrm{e}) = \\mathsf{M}\\)\n\n\\(\\dim(e) = \\mathsf{T} \\mathsf{I}\\)\n\n\\(\\dim(4 \\pi \\varepsilon_0) = \\mathsf{T}^4 \\mathsf{L}^{-3} \\mathsf{M}^{-1} \\mathsf{I}^2\\)\n\n\n\nまず, 4つの物理定数を組み合わせて, 長さと同じ次元を持つ量を作ります. 組み合わせ方はいくつかありますが, ここでは\\(4\\pi\\varepsilon_0\\)の次元から出発します.\n\\[\n\\begin{aligned}\n\\dim(4 \\pi \\varepsilon_0) &= \\mathsf{T}^4 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\mathsf{I}^2 \\\\\n&= \\mathsf{T}^2 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space (\\mathsf{T} \\space \\mathsf{I})^2 \\\\\n&= \\mathsf{T}^2 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\dim(e)^2 \\\\&= \\mathsf{L} \\space \\mathsf{M} \\space (\\mathsf{T}^{-1} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-2} \\space \\dim(e)^2 \\\\\n&= \\mathsf{L} \\space \\dim(m_\\mathrm{e}) \\dim(\\hbar)^{-2} \\dim(e)^2 \\\\\n\\therefore \\mathsf{L} &= \\frac{\\dim(4 \\pi \\varepsilon_0) \\dim(\\hbar)^2}{\\dim(m_\\mathrm{e}) \\dim(e)^2} \\\\\n&= \\dim \\left( \\frac{4 \\pi \\varepsilon_0 \\hbar^2}{m_\\mathrm{e} e^2} \\right)\n\\end{aligned}\n\\]\nこのようにして得られた物理定数の組合せが, 長さの原子単位となります. これはBohr半径と呼ばれます.\n\\[\na_0 \\coloneqq \\frac{4 \\pi \\varepsilon_0 \\hbar^2}{m_\\mathrm{e} e^2}\n\\]\n\n\n\nエネルギーの原子単位も求めます. エネルギーの次元は \\(\\mathsf{T}^{-2} \\mathsf{L}^2 \\mathsf{M}\\) です. ここでも物理定数を組み合わせて, エネルギーの次元を持つ量を作ります. 先ほどと同じように, \\(4 \\pi \\varepsilon_0\\)の次元から出発します.\n\\[\n\\begin{aligned}\n\\dim(4 \\pi \\varepsilon_0) &= \\mathsf{T}^4 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\mathsf{I}^2 \\\\\n&= (\\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-1} \\space \\mathsf{L}^{-1} \\space (\\mathsf{T} \\space \\mathsf{I})^2 \\\\\n&= (\\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-1} \\space \\dim(a_0)^{-1} \\dim(e)^2 \\\\\n\\therefore \\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M} &= \\frac{\\dim(e)^2}{\\dim(4 \\pi \\varepsilon_0) \\dim(a_0)} \\\\\n&= \\dim \\left( \\frac{e^2}{4 \\pi \\varepsilon_0 a_0} \\right)\n\\end{aligned}\n\\]\nエネルギーの次元を持つ量を, 物理定数で表現することができました. この量はHartreeエネルギーと呼ばれます. Bohr半径を使うと覚えやすい形で表せますが, Bohr半径を使わずに物理定数だけで表すこともできます.\n\\[\nE_\\mathrm{h} \\coloneqq \\frac{m_\\mathrm{e} e^4}{(4 \\pi \\varepsilon_0)^2 \\hbar^2} = \\frac{e^2}{4 \\pi \\varepsilon_0 a_0}\n\\]"
+  },
+  {
+    "objectID": "articles/atomic-units-derivation/index.html#derive-atomic-units",
+    "href": "articles/atomic-units-derivation/index.html#derive-atomic-units",
+    "title": "Hartree原子単位系の補足",
+    "section": "",
+    "text": "ここでは時間, 長さ, 質量, 電流の次元を, それぞれ\\(\\mathsf{T}\\), \\(\\mathsf{L}\\), \\(\\mathsf{M}\\), \\(\\mathsf{I}\\)と表します. Hartree原子単位系では, 換算Planck定数\\(\\hbar\\), 電子質量\\(m_\\mathrm{e}\\), 電気素量\\(e\\), 真空の誘電率の\\(4\\pi\\)倍である\\(4\\pi\\varepsilon_0\\)を基準にします. それぞれの次元は以下のとおりです.\n\n\\(\\dim(\\hbar) = \\mathsf{T}^{-1} \\mathsf{L}^2 \\mathsf{M}\\)\n\n\\(\\dim(m_\\mathrm{e}) = \\mathsf{M}\\)\n\n\\(\\dim(e) = \\mathsf{T} \\mathsf{I}\\)\n\n\\(\\dim(4 \\pi \\varepsilon_0) = \\mathsf{T}^4 \\mathsf{L}^{-3} \\mathsf{M}^{-1} \\mathsf{I}^2\\)\n\n\n\nまず, 4つの物理定数を組み合わせて, 長さと同じ次元を持つ量を作ります. 組み合わせ方はいくつかありますが, ここでは\\(4\\pi\\varepsilon_0\\)の次元から出発します.\n\\[\n\\begin{aligned}\n\\dim(4 \\pi \\varepsilon_0) &= \\mathsf{T}^4 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\mathsf{I}^2 \\\\\n&= \\mathsf{T}^2 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space (\\mathsf{T} \\space \\mathsf{I})^2 \\\\\n&= \\mathsf{T}^2 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\dim(e)^2 \\\\&= \\mathsf{L} \\space \\mathsf{M} \\space (\\mathsf{T}^{-1} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-2} \\space \\dim(e)^2 \\\\\n&= \\mathsf{L} \\space \\dim(m_\\mathrm{e}) \\dim(\\hbar)^{-2} \\dim(e)^2 \\\\\n\\therefore \\mathsf{L} &= \\frac{\\dim(4 \\pi \\varepsilon_0) \\dim(\\hbar)^2}{\\dim(m_\\mathrm{e}) \\dim(e)^2} \\\\\n&= \\dim \\left( \\frac{4 \\pi \\varepsilon_0 \\hbar^2}{m_\\mathrm{e} e^2} \\right)\n\\end{aligned}\n\\]\nこのようにして得られた物理定数の組合せが, 長さの原子単位となります. これはBohr半径と呼ばれます.\n\\[\na_0 \\coloneqq \\frac{4 \\pi \\varepsilon_0 \\hbar^2}{m_\\mathrm{e} e^2}\n\\]\n\n\n\nエネルギーの原子単位も求めます. エネルギーの次元は \\(\\mathsf{T}^{-2} \\mathsf{L}^2 \\mathsf{M}\\) です. ここでも物理定数を組み合わせて, エネルギーの次元を持つ量を作ります. 先ほどと同じように, \\(4 \\pi \\varepsilon_0\\)の次元から出発します.\n\\[\n\\begin{aligned}\n\\dim(4 \\pi \\varepsilon_0) &= \\mathsf{T}^4 \\space \\mathsf{L}^{-3} \\space \\mathsf{M}^{-1} \\space \\mathsf{I}^2 \\\\\n&= (\\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-1} \\space \\mathsf{L}^{-1} \\space (\\mathsf{T} \\space \\mathsf{I})^2 \\\\\n&= (\\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M})^{-1} \\space \\dim(a_0)^{-1} \\dim(e)^2 \\\\\n\\therefore \\mathsf{T}^{-2} \\space \\mathsf{L}^2 \\space \\mathsf{M} &= \\frac{\\dim(e)^2}{\\dim(4 \\pi \\varepsilon_0) \\dim(a_0)} \\\\\n&= \\dim \\left( \\frac{e^2}{4 \\pi \\varepsilon_0 a_0} \\right)\n\\end{aligned}\n\\]\nエネルギーの次元を持つ量を, 物理定数で表現することができました. この量はHartreeエネルギーと呼ばれます. Bohr半径を使うと覚えやすい形で表せますが, Bohr半径を使わずに物理定数だけで表すこともできます.\n\\[\nE_\\mathrm{h} \\coloneqq \\frac{m_\\mathrm{e} e^4}{(4 \\pi \\varepsilon_0)^2 \\hbar^2} = \\frac{e^2}{4 \\pi \\varepsilon_0 a_0}\n\\]"
+  },
+  {
+    "objectID": "articles/atomic-units-derivation/index.html#nondimensionalize-schroedinger",
+    "href": "articles/atomic-units-derivation/index.html#nondimensionalize-schroedinger",
+    "title": "Hartree原子単位系の補足",
+    "section": "Schrödinger方程式をキレイにする",
+    "text": "Schrödinger方程式をキレイにする\n量子化学では大抵の場合, 非相対論的な取り扱いで十分な場合が多く, 粒子間相互作用が Coulomb 相互作用のみである系が多いです. ここではその例として, 原点に \\(^{1}\\mathrm{H}\\) 原子核が固定された系における電子の Schrödinger 方程式（特にそのハミルトニアン \\(\\hat{H}^{\\mathrm{el}}\\)）を用います.\n\\[\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\nabla^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{r}\n\\]\nしかし, 方程式の見た目がキレイになることを体感するだけであれば 3 次元空間である必要はなく, 現実的な系から逸れますが簡単のために 1 次元系を考えます.\n\\[\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x} \\right)^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{|x|}\n\\]\n座標\\(x\\)をBohr半径と無次元量\\(x'\\)の積で表し, ハミルトニアン全体からHartreeエネルギーをくくり出します.\n\\[\n\\hat{H}^\\mathrm{el} = E_\\mathrm{h} \\left( - \\frac{1}{2} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x'} \\right)^2 - \\frac{1}{|x'|} \\right)\n\\]\nここで \\(\\hat{H}'=\\hat{H}^\\mathrm{el}/E_\\mathrm{h}\\) とおけば, Hamiltonianを無次元化できます. この無次元HamiltonianはHartree原子単位系で各物理量の数値を用いて表したHamiltonianと同じ形になります."
+  },
+  {
     "objectID": "articles/index.html",
     "href": "articles/index.html",
     "title": "Articles",
     "section": "",
-    "text": "No matching items"
+    "text": "Hartree原子単位系\n\n\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHartree原子単位系の補足\n\n\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,5 +33,40 @@
     "title": "Home",
     "section": "",
     "text": "Articles"
+  },
+  {
+    "objectID": "articles/atomic-units/index.html",
+    "href": "articles/atomic-units/index.html",
+    "title": "Hartree原子単位系",
+    "section": "",
+    "text": "国際単位系では7つの基本量が定められています. Hartree原子単位系では, この7つのうち時間, 長さ, 質量, 電流に対応する単位を, いくつかの物理定数に基づいて組み直します."
+  },
+  {
+    "objectID": "articles/atomic-units/index.html#hartree原子単位系の概要",
+    "href": "articles/atomic-units/index.html#hartree原子単位系の概要",
+    "title": "Hartree原子単位系",
+    "section": "",
+    "text": "国際単位系では7つの基本量が定められています. Hartree原子単位系では, この7つのうち時間, 長さ, 質量, 電流に対応する単位を, いくつかの物理定数に基づいて組み直します."
+  },
+  {
+    "objectID": "articles/atomic-units/index.html#原子単位系で式が簡単になる理由",
+    "href": "articles/atomic-units/index.html#原子単位系で式が簡単になる理由",
+    "title": "Hartree原子単位系",
+    "section": "原子単位系で式が簡単になる理由",
+    "text": "原子単位系で式が簡単になる理由\nHartree原子単位系では, 量子化学で頻繁に現れるいくつかの物理定数に基づいて単位を定めます. その結果, これらの物理定数を原子単位系で表すと数値は1になります.\n物理定数の数値が1になることは「物理定数を1にする」と表現されることがあります. この表現自体は間違いではありません. ただし, 次元を持つ物理量そのものが無次元数の1になるというわけではありません. その物理量を採用した単位系で表したときに, 数値が1になるという意味です.\nまた, Hartree原子単位を尺度として量方程式を無次元化すると, Hartree原子単位系の数値方程式と同じ形が得られます. 数値方程式とは, 物理量を選んだ単位で表した数値どうしの関係です. 以下では, Hartree原子単位系で使われる代表的な原子単位を確かめ, それらを使うと方程式がどのように簡潔になるかを見ていきます."
+  },
+  {
+    "objectID": "articles/atomic-units/index.html#代表的な原子単位",
+    "href": "articles/atomic-units/index.html#代表的な原子単位",
+    "title": "Hartree原子単位系",
+    "section": "代表的な原子単位",
+    "text": "代表的な原子単位\nHartree原子単位系では, 換算Planck定数, 電子質量, 電気素量, 真空の誘電率の\\(4 \\pi\\)倍を基に単位を定めます.\nこれらの物理定数を組み合わせると, 長さの原子単位としてBohr半径が得られます. また, エネルギーの原子単位としてHartreeエネルギーが得られます.\n\\[\n\\begin{aligned}\na_0 &= \\frac{ 4 \\pi \\varepsilon_0 \\hbar^2 }{ m_\\mathrm{e} e^2 } \\\\\nE_\\mathrm{h} &= \\frac{ m_\\mathrm{e} e^4 }{ (4 \\pi \\varepsilon_0)^2 \\hbar^2 } =\\frac{ 1 }{ 4 \\pi \\varepsilon_0 }\\frac{ e^2 }{ a_0 }\n\\end{aligned}\n\\]\nBohr模型では, Bohr半径はCoulomb引力で円運動する電子の角運動量を\\(\\hbar\\)としたときの軌道半径です. Hartreeエネルギーは, Bohr半径だけ離れた素電荷どうしのCoulombポテンシャルエネルギーの大きさです.\nBohr半径とHartreeエネルギーが物理定数からどのように得られるかは, 次元解析を使って別記事で確かめます.\nHartree原子単位系に対応する原子単位は, 方程式を無次元化するための尺度としても使えます. 無次元化に使う尺度の選び方は一つではありませんが, Hartree原子単位系に対応する尺度を選ぶと, Hartree原子単位系の数値方程式と同じ形が得られます. たとえば, 水素原子のSchrödinger方程式では, 長さの尺度としてBohr半径, エネルギーの尺度としてHartreeエネルギーを使います. この書き換えの具体的な式変形は別記事で示しています."
+  },
+  {
+    "objectID": "articles/atomic-units/index.html#物理定数を1にするの実際",
+    "href": "articles/atomic-units/index.html#物理定数を1にするの実際",
+    "title": "Hartree原子単位系",
+    "section": "「物理定数を1にする」の実際",
+    "text": "「物理定数を1にする」の実際\n物理定数を基準として単位を定める単位系は, 自然単位系と呼ばれます. Hartree原子単位系もその一種です. ここでは, 「物理定数を1にする」とはどういう意味なのかを, 数値と単位に分けて考えます. 一般に物理量 \\(Q\\) は単位 \\([Q]\\) と数値\\(\\{ Q \\}\\) の積からなります.\n\\[\nQ = \\{Q\\} [Q]\n\\]\nたとえば国際単位系では, 電気素量は約\\(1.6 \\times 10^{-19}\\) クーロンです. 一方, 電気素量そのものを電荷の単位として選べば, 電気素量は「1 電気素量」と表され, その数値は1になります.\nこのように, 物理定数そのものを単位の基準にすることで, その物理定数の数値を1にできます. この結果, Hartree原子単位系の数値方程式では, これらの物理定数を明示しない簡潔な表式が得られます."
   }
 ]
