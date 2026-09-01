@@ -18,10 +18,10 @@ date: 2026-09-01
 
 $$
 \begin{aligned}
-\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \mathsf{I}^2 \\
-&= \mathsf{T}^2 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space (\mathsf{T} \space \mathsf{I})^2 \\
-&= \mathsf{T}^2 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \dim(e)^2 \\&= \mathsf{L} \space \mathsf{M} \space (\mathsf{T}^{-1} \space \mathsf{L}^2 \space \mathsf{M})^{-2} \space \dim(e)^2 \\
-&= \mathsf{L} \space \dim(m_\mathrm{e}) \dim(\hbar)^{-2} \dim(e)^2 \\
+\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \, \mathsf{L}^{-3} \, \mathsf{M}^{-1} \, \mathsf{I}^2 \\
+&= \mathsf{T}^2 \, \mathsf{L}^{-3} \, \mathsf{M}^{-1} \, (\mathsf{T} \, \mathsf{I})^2 \\
+&= \mathsf{T}^2 \, \mathsf{L}^{-3} \, \mathsf{M}^{-1} \, \dim(e)^2 \\&= \mathsf{L} \, \mathsf{M} \, (\mathsf{T}^{-1} \, \mathsf{L}^2 \, \mathsf{M})^{-2} \, \dim(e)^2 \\
+&= \mathsf{L} \, \dim(m_\mathrm{e}) \dim(\hbar)^{-2} \dim(e)^2 \\
 \therefore \mathsf{L} &= \frac{\dim(4 \pi \varepsilon_0) \dim(\hbar)^2}{\dim(m_\mathrm{e}) \dim(e)^2} \\
 &= \dim \left( \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2} \right)
 \end{aligned}
@@ -39,10 +39,10 @@ $$
 
 $$
 \begin{aligned}
-\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \mathsf{I}^2 \\
-&= (\mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M})^{-1} \space \mathsf{L}^{-1} \space (\mathsf{T} \space \mathsf{I})^2 \\
-&= (\mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M})^{-1} \space \dim(a_0)^{-1} \dim(e)^2 \\
-\therefore \mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M} &= \frac{\dim(e)^2}{\dim(4 \pi \varepsilon_0) \dim(a_0)} \\
+\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \, \mathsf{L}^{-3} \, \mathsf{M}^{-1} \, \mathsf{I}^2 \\
+&= (\mathsf{T}^{-2} \, \mathsf{L}^2 \, \mathsf{M})^{-1} \, \mathsf{L}^{-1} \, (\mathsf{T} \, \mathsf{I})^2 \\
+&= (\mathsf{T}^{-2} \, \mathsf{L}^2 \, \mathsf{M})^{-1} \, \dim(a_0)^{-1} \dim(e)^2 \\
+\therefore \mathsf{T}^{-2} \, \mathsf{L}^2 \, \mathsf{M} &= \frac{\dim(e)^2}{\dim(4 \pi \varepsilon_0) \dim(a_0)} \\
 &= \dim \left( \frac{e^2}{4 \pi \varepsilon_0 a_0} \right)
 \end{aligned}
 $$
