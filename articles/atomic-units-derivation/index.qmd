@@ -1,0 +1,76 @@
+---
+title: "Hartree原子単位系の補足"
+date: 2026-09-01
+---
+
+## 物理定数から原子単位を求める {#derive-atomic-units}
+
+ここでは時間, 長さ, 質量, 電流の次元を, それぞれ$\mathsf{T}$, $\mathsf{L}$, $\mathsf{M}$, $\mathsf{I}$と表します. Hartree原子単位系では, 換算Planck定数$\hbar$, 電子質量$m_\mathrm{e}$, 電気素量$e$, 真空の誘電率の$4\pi$倍である$4\pi\varepsilon_0$を基準にします. それぞれの次元は以下のとおりです. 
+
+* $\dim(\hbar) = \mathsf{T}^{-1} \mathsf{L}^2 \mathsf{M}$  
+* $\dim(m_\mathrm{e}) = \mathsf{M}$  
+* $\dim(e) = \mathsf{T} \mathsf{I}$  
+* $\dim(4 \pi \varepsilon_0) = \mathsf{T}^4 \mathsf{L}^{-3} \mathsf{M}^{-1} \mathsf{I}^2$  
+
+### 長さの原子単位 {#derive-bohr-radius}
+
+まず, 4つの物理定数を組み合わせて, 長さと同じ次元を持つ量を作ります. 組み合わせ方はいくつかありますが, ここでは$4\pi\varepsilon_0$の次元から出発します.
+
+$$
+\begin{aligned}
+\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \mathsf{I}^2 \\
+&= \mathsf{T}^2 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space (\mathsf{T} \space \mathsf{I})^2 \\
+&= \mathsf{T}^2 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \dim(e)^2 \\&= \mathsf{L} \space \mathsf{M} \space (\mathsf{T}^{-1} \space \mathsf{L}^2 \space \mathsf{M})^{-2} \space \dim(e)^2 \\
+&= \mathsf{L} \space \dim(m_\mathrm{e}) \dim(\hbar)^{-2} \dim(e)^2 \\
+\therefore \mathsf{L} &= \frac{\dim(4 \pi \varepsilon_0) \dim(\hbar)^2}{\dim(m_\mathrm{e}) \dim(e)^2} \\
+&= \dim \left( \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2} \right)
+\end{aligned}
+$$
+
+このようにして得られた物理定数の組合せが, 長さの原子単位となります. これはBohr半径と呼ばれます. 
+
+$$
+a_0 \coloneqq \frac{4 \pi \varepsilon_0 \hbar^2}{m_\mathrm{e} e^2}
+$$
+
+### エネルギーの原子単位 {#derive-hartree-energy}
+
+エネルギーの原子単位も求めます. エネルギーの次元は $\mathsf{T}^{-2} \mathsf{L}^2 \mathsf{M}$ です. ここでも物理定数を組み合わせて, エネルギーの次元を持つ量を作ります. 先ほどと同じように, $4 \pi \varepsilon_0$の次元から出発します. 
+
+$$
+\begin{aligned}
+\dim(4 \pi \varepsilon_0) &= \mathsf{T}^4 \space \mathsf{L}^{-3} \space \mathsf{M}^{-1} \space \mathsf{I}^2 \\
+&= (\mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M})^{-1} \space \mathsf{L}^{-1} \space (\mathsf{T} \space \mathsf{I})^2 \\
+&= (\mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M})^{-1} \space \dim(a_0)^{-1} \dim(e)^2 \\
+\therefore \mathsf{T}^{-2} \space \mathsf{L}^2 \space \mathsf{M} &= \frac{\dim(e)^2}{\dim(4 \pi \varepsilon_0) \dim(a_0)} \\
+&= \dim \left( \frac{e^2}{4 \pi \varepsilon_0 a_0} \right)
+\end{aligned}
+$$
+
+エネルギーの次元を持つ量を, 物理定数で表現することができました. この量はHartreeエネルギーと呼ばれます. Bohr半径を使うと覚えやすい形で表せますが, Bohr半径を使わずに物理定数だけで表すこともできます. 
+
+$$
+E_\mathrm{h} \coloneqq \frac{m_\mathrm{e} e^4}{(4 \pi \varepsilon_0)^2 \hbar^2} = \frac{e^2}{4 \pi \varepsilon_0 a_0}
+$$
+
+## Schrödinger方程式をキレイにする {#nondimensionalize-schroedinger}
+
+量子化学では大抵の場合, 非相対論的な取り扱いで十分な場合が多く, 粒子間相互作用が Coulomb 相互作用のみである系が多いです. ここではその例として, 原点に $^{1}\mathrm{H}$ 原子核が固定された系における電子の Schrödinger 方程式（特にそのハミルトニアン $\hat{H}^{\mathrm{el}}$）を用います. 
+
+$$
+\hat{H}^\mathrm{el} = - \frac{\hbar^2}{2 m_\mathrm{e}} \nabla^2 - \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{r}
+$$
+
+しかし, 方程式の見た目がキレイになることを体感するだけであれば 3 次元空間である必要はなく, 現実的な系から逸れますが簡単のために 1 次元系を考えます. 
+
+$$
+\hat{H}^\mathrm{el} = - \frac{\hbar^2}{2 m_\mathrm{e}} \left( \frac{\mathrm{d}}{\mathrm{d} x} \right)^2 - \frac{1}{4 \pi \varepsilon_0} \frac{e^2}{|x|}
+$$
+
+座標$x$をBohr半径と無次元量$x'$の積で表し, ハミルトニアン全体からHartreeエネルギーをくくり出します. 
+
+$$
+\hat{H}^\mathrm{el} = E_\mathrm{h} \left( - \frac{1}{2} \left( \frac{\mathrm{d}}{\mathrm{d} x'} \right)^2 - \frac{1}{|x'|} \right)
+$$
+
+ここで $\hat{H}'=\hat{H}^\mathrm{el}/E_\mathrm{h}$ とおけば, Hamiltonianを無次元化できます. この無次元HamiltonianはHartree原子単位系で各物理量の数値を用いて表したHamiltonianと同じ形になります.  
