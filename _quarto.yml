@@ -1,6 +1,8 @@
 project:
   type: website
 
+date-format: "YYYY-MM-DD"
+
 format:
   html:
     html-math-method: mathml
