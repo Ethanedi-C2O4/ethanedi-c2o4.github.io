@@ -1,6 +1,7 @@
 project:
   type: website
 
+lang: ja
 date-format: "YYYY-MM-DD"
 
 format:
