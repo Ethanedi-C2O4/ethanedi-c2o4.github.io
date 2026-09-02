@@ -3,4 +3,5 @@ title: "Articles"
 listing:
   contents: .
   sort: "date desc"
+  fields: [title, date]
 ---
