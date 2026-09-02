@@ -18,14 +18,14 @@
     "href": "articles/atomic-units-derivation/index.html#nondimensionalize-schroedinger",
     "title": "Hartree原子単位系の補足",
     "section": "Schrödinger方程式をキレイにする",
-    "text": "Schrödinger方程式をキレイにする\n量子化学では大抵の場合, 非相対論的な取り扱いで十分な場合が多く, 粒子間相互作用が Coulomb 相互作用のみである系が多いです. ここではその例として, 原点に 1H^{1}\\mathrm{H} 原子核が固定された系における電子の Schrödinger 方程式（特にそのハミルトニアン Ĥel\\hat{H}^{\\mathrm{el}}）を用います.\nĤel=−ℏ22me∇2−14πε0e2r\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\nabla^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{r}\n\nしかし, 方程式の見た目がキレイになることを体感するだけであれば 3 次元空間である必要はなく, 現実的な系から逸れますが簡単のために 1 次元系を考えます.\nĤel=−ℏ22me(ddx)2−14πε0e2|x|\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x} \\right)^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{|x|}\n\n座標xxをBohr半径と無次元量x′x'の積で表し, ハミルトニアン全体からHartreeエネルギーをくくり出します.\nĤel=Eh(−12(ddx′)2−1|x′|)\n\\hat{H}^\\mathrm{el} = E_\\mathrm{h} \\left( - \\frac{1}{2} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x'} \\right)^2 - \\frac{1}{|x'|} \\right)\n\nここで Ĥ′=Ĥel/Eh\\hat{H}'=\\hat{H}^\\mathrm{el}/E_\\mathrm{h} とおけば, Hamiltonianを無次元化できます. この無次元HamiltonianはHartree原子単位系で各物理量の数値を用いて表したHamiltonianと同じ形になります."
+    "text": "Schrödinger方程式をキレイにする\n量子化学では大抵の場合, 非相対論的な取り扱いで十分な場合が多く, 粒子間相互作用が Coulomb 相互作用のみである系が多いです. ここではその例として, 原点に 1H^{1}\\mathrm{H} 原子核が固定された系における電子の Schrödinger 方程式（特にそのハミルトニアン Ĥel\\hat{H}^{\\mathrm{el}}）を用います.\nĤel=−ℏ22me∇2−14πε0e2r\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\nabla^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{r}\n\nしかし, 方程式の見た目がキレイになることを体感するだけであれば 3 次元空間である必要はなく, 現実的な系から逸れますが簡単のために 1 次元系を考えます.\nĤel=−ℏ22me(ddx)2−14πε0e2|x|\n\\hat{H}^\\mathrm{el} = - \\frac{\\hbar^2}{2 m_\\mathrm{e}} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x} \\right)^2 - \\frac{1}{4 \\pi \\varepsilon_0} \\frac{e^2}{|x|}\n\n座標xxをBohr半径と無次元量x′x'の積で表し, ハミルトニアン全体からHartreeエネルギーをくくり出します.\nĤel=Eh(−12(ddx′)2−1|x′|)\n\\hat{H}^\\mathrm{el} = E_\\mathrm{h} \\left( - \\frac{1}{2} \\left( \\frac{\\mathrm{d}}{\\mathrm{d} x'} \\right)^2 - \\frac{1}{|x'|} \\right)\n\nここで Ĥ′=Ĥel/Eh\\hat{H}'=\\hat{H}^\\mathrm{el}/E_\\mathrm{h} とおけば, Hamiltonianを無次元化できます. この無次元HamiltonianはHartree原子単位系で各物理量の数値を用いて表したHamiltonianと同じ形になります.\n↑ 上の階層へ"
   },
   {
     "objectID": "articles/index.html",
     "href": "articles/index.html",
     "title": "Articles",
     "section": "",
-    "text": "Hartree原子単位系\n\n\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nHartree原子単位系の補足\n\n\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\nNo matching items"
+    "text": "↑ 上の階層へ\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHartree原子単位系\n\n\n\n\n\n\n\n\n2026-09-01\n\n\n\n\n\n\n\n\n\n\n\n\nHartree原子単位系の補足\n\n\n\n\n\n\n\n\n2026-09-01\n\n\n\n\n\n一致なし"
   },
   {
     "objectID": "index.html",
@@ -67,6 +67,6 @@
     "href": "articles/atomic-units/index.html#物理定数を1にするの実際",
     "title": "Hartree原子単位系",
     "section": "「物理定数を1にする」の実際",
-    "text": "「物理定数を1にする」の実際\n物理定数を基準として単位を定める単位系は, 自然単位系と呼ばれます. Hartree原子単位系もその一種です. ここでは, 「物理定数を1にする」とはどういう意味なのかを, 数値と単位に分けて考えます. 一般に物理量 QQ は単位 [Q][Q] と数値{Q}\\{ Q \\} の積からなります.\nQ={Q}[Q]\nQ = \\{Q\\} [Q]\n\nたとえば国際単位系では, 電気素量は約1.6×10−191.6 \\times 10^{-19} クーロンです. 一方, 電気素量そのものを電荷の単位として選べば, 電気素量は「1 電気素量」と表され, その数値は1になります.\nこのように, 物理定数そのものを単位の基準にすることで, その物理定数の数値を1にできます. この結果, Hartree原子単位系の数値方程式では, これらの物理定数を明示しない簡潔な表式が得られます."
+    "text": "「物理定数を1にする」の実際\n物理定数を基準として単位を定める単位系は, 自然単位系と呼ばれます. Hartree原子単位系もその一種です. ここでは, 「物理定数を1にする」とはどういう意味なのかを, 数値と単位に分けて考えます. 一般に物理量 QQ は単位 [Q][Q] と数値{Q}\\{ Q \\} の積からなります.\nQ={Q}[Q]\nQ = \\{Q\\} [Q]\n\nたとえば国際単位系では, 電気素量は約1.6×10−191.6 \\times 10^{-19} クーロンです. 一方, 電気素量そのものを電荷の単位として選べば, 電気素量は「1 電気素量」と表され, その数値は1になります.\nこのように, 物理定数そのものを単位の基準にすることで, その物理定数の数値を1にできます. この結果, Hartree原子単位系の数値方程式では, これらの物理定数を明示しない簡潔な表式が得られます.\n↑ 上の階層へ"
   }
 ]
