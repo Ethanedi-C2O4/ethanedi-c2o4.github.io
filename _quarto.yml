@@ -4,6 +4,9 @@ project:
 lang: ja
 date-format: "YYYY-MM-DD"
 
+filters:
+  - parent-link.lua
+
 format:
   html:
     html-math-method: mathml

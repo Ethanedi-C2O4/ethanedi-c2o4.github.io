@@ -74,5 +74,3 @@ $$
 $$
 
 ここで $\hat{H}'=\hat{H}^\mathrm{el}/E_\mathrm{h}$ とおけば, Hamiltonianを無次元化できます. この無次元HamiltonianはHartree原子単位系で各物理量の数値を用いて表したHamiltonianと同じ形になります.  
-
-[↑ 上の階層へ](../)

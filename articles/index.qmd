@@ -4,5 +4,3 @@ listing:
   contents: .
   sort: "date desc"
 ---
-
-[↑ 上の階層へ](../)
