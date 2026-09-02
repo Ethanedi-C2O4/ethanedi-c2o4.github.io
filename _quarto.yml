@@ -4,3 +4,4 @@ project:
 format:
   html:
     html-math-method: mathml
+    css: styles.css
